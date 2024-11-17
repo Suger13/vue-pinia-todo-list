@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-cancel {
+    @apply bg-cancel text-white hover:bg-cancel-dark active:bg-cancel-darker focus:outline-none;
+  }
+}
